@@ -9,16 +9,14 @@
 </head>
 <body>
         <div id="calculator">
-
-            <h3> Calculadora </h3>
-            
+                
             <div type="text" id="numeros">
     
                 <input type="text" id="numer_txt" disabled/>
-                
+
             </div>
 
-            <div id="calculator_buttons">
+            <div id="buttons_local">
                 
                 <button id="numer_button" onclick="num7()">7</button>
                 <button id="numer_button" onclick="num8()">8</button>
@@ -29,17 +27,20 @@
                 <button id="numer_button" onclick="num1()">1</button>
                 <button id="numer_button" onclick="num2()">2</button>
                 <button id="numer_button" onclick="num3()">3</button>
+                <button id="numer_button" onclick="num0()">0</button>
 
                 
-                <button id="numer_button" onclick="soma()">+</button>
-                <button id="numer_button" onclick="sub()">-</button>
-                <button id="numer_button" onclick="mult()">x</button>
-                <button id="numer_button" onclick="divi()">÷</button>
-                <button id="numer_button" onclick="result()">=</button>
-                <button id="numer_button" onclick="limpar()">C</button>
+                <button id="numer_button_calc" onclick="soma()">+</button>
+                <button id="numer_button_calc" onclick="sub()">-</button>
+                <button id="numer_button_calc" onclick="mult()">x</button>
+                <button id="numer_button_calc" onclick="divi()">÷</button>
+                <button id="numer_button_calc" onclick="result()">=</button>
+                <button id="numer_button_calc" onclick="limpar()">C</button>
                 
                
             </div>
+
+            
 
         </div>
    <script src="src/script.js"></script>

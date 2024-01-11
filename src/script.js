@@ -1,8 +1,6 @@
   
 
 var num = window.document.getElementById('numer_txt')
-var num_btn = window.document.getElementById('numer_button')
-var btn_txt = num_btn.textContent
 var n1 = ""
 var n2 = ""
 var resu  = ""
@@ -71,6 +69,13 @@ function num3(){
     
    
   num.value = num.value + "3"
+ 
+} 
+
+function num0(){
+    
+   
+  num.value = num.value + "0"
  
 } 
  
