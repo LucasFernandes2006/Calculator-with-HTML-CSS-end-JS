@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#calculator{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    width: 50%;
+    
+}
+
+#numeros{
+
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+
+    
+}
+
+#numer_txt{
+
+
+    border: none;
+    text-align: center;
+    height: 100%;
+
+
+
+}
+#div_visible{
+
+    color: white;
+}
+#numer_txt{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#calculator_buttons{
+
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    background-color: black;
+    width: 14%;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+#numer_button{
+    height: 2em;
+    width: 2em;
+    margin: 5px;
+    border-radius: 10px;
+}

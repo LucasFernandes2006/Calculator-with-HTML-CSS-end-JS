@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+       
+    <title>Calculadora Web</title>
+</head>
+<body>
+        <div id="calculator">
+
+            <h3> Calculadora </h3>
+            
+            <div type="text" id="numeros">
+    
+                <input type="text" id="numer_txt" disabled/>
+                
+            </div>
+
+            <div id="calculator_buttons">
+                
+                <button id="numer_button" onclick="num7()">7</button>
+                <button id="numer_button" onclick="num8()">8</button>
+                <button id="numer_button" onclick="num9()">9</button>
+                <button id="numer_button" onclick="num4()">4</button>
+                <button id="numer_button" onclick="num5()">5</button>
+                <button id="numer_button" onclick="num6()">6</button>
+                <button id="numer_button" onclick="num1()">1</button>
+                <button id="numer_button" onclick="num2()">2</button>
+                <button id="numer_button" onclick="num3()">3</button>
+
+                
+                <button id="numer_button" onclick="soma()">+</button>
+                <button id="numer_button" onclick="sub()">-</button>
+                <button id="numer_button" onclick="mult()">x</button>
+                <button id="numer_button" onclick="divi()">÷</button>
+                <button id="numer_button" onclick="result()">=</button>
+                <button id="numer_button" onclick="limpar()">C</button>
+                
+               
+            </div>
+
+        </div>
+   <script src="src/script.js"></script>
+</body>
+</html>
