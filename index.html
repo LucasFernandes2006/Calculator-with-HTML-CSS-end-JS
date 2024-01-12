@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
        
-    <title>Calculadora Web</title>
+    <title>Web Calculator</title>
 </head>
 <body>
+        <!-- div that accommodates the entire calculator -->
         <div id="calculator">
+            
+            <!-- div that accommodates the input text -->
+            <div type="text" id="numbers">
                 
-            <div type="text" id="numeros">
-    
+                <!-- imput that receives the numbers -->
                 <input type="text" id="numer_txt" disabled/>
 
             </div>
 
+            <!-- div that accommodates all buttons -->
             <div id="buttons_local">
-                
+
+                <!-- buttons with numeric valuess -->
                 <button id="numer_button" onclick="num7()">7</button>
                 <button id="numer_button" onclick="num8()">8</button>
                 <button id="numer_button" onclick="num9()">9</button>
@@ -28,20 +33,36 @@
                 <button id="numer_button" onclick="num2()">2</button>
                 <button id="numer_button" onclick="num3()">3</button>
                 <button id="numer_button" onclick="num0()">0</button>
-
+                <button id="numer_button" onclick="comma()">,</button>
                 
-                <button id="numer_button_calc" onclick="soma()">+</button>
+                <!-- buttons with operations and cleaning button -->
+                <button id="numer_button_calc" onclick="sum()">+</button>
                 <button id="numer_button_calc" onclick="sub()">-</button>
                 <button id="numer_button_calc" onclick="mult()">x</button>
                 <button id="numer_button_calc" onclick="divi()">÷</button>
                 <button id="numer_button_calc" onclick="result()">=</button>
-                <button id="numer_button_calc" onclick="limpar()">C</button>
-                
-               
+                <button id="numer_button_calc" onclick="clean()">C</button>
+                   
             </div>
 
             
 
+        </div>
+
+        <!-- div with explanation of some things about the calculator -->
+        <div id="description">
+
+            <h3 class="title"> Operations of This Calculator </h3>
+
+            <p> <strong> + </strong>: Sum refers to the result of adding two or more numbers or quantities.</p>
+            <p> <strong> - </strong>: Subtraction is an operation that represents the removal of objects from a collection.</p>
+            <p> <strong> x </strong>: Multiplication is a mathematical process that repeatedly adds a number to itself a specific number of times.</p>
+            <p> <strong> ÷ </strong>: Division is a mathematical operation that involves dividing an amount into groups of equal size.</p>
+
+            <h3 class="title"> About Some Calculator Buttons</h3>
+
+            <p> <strong> = </strong>: Button to show the result of the desired account.</p>
+            <p> <strong> C </strong>: Button that removes the values ​​that have been stored and are being shown.</p>
         </div>
    <script src="src/script.js"></script>
 </body>
